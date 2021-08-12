@@ -1,0 +1,19 @@
+.pdapp_br1 {
+    border-radius: 10px;
+}
+
+.pdapp_brtl1 {
+    border-top-left-radius: 10px;
+}
+
+.pdapp_brtr1 {
+    border-top-right-radius: 10px;
+}
+
+.pdapp_brbl1 {
+    border-bottom-left-radius: 10px;
+}
+
+.pdapp_brbr1 {
+    border-bottom-right-radius: 10px;
+}

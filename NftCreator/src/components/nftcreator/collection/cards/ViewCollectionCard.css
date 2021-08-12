@@ -1,0 +1,32 @@
+.ViewCollectionCard {
+    width: 200px;
+    height: 300px;
+    background-color: #ffffdd;
+    box-shadow: 0 4px 8px 0 #00000033;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.ViewCollectionCard .CollectionName, .ViewCollectionCard .CollectionNfts {
+    width: fit-content;
+    background-color: #067fcb;
+    color: #ffffdd;
+    padding: 3px 10px;
+    margin: 10px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ViewCollectionCard .CollectionNfts {
+    margin: 10px 0 10px 10px;
+    padding: 3px 10px;
+    font-size: 12px;
+}
+
+.ViewCollectionCard .PhotoImg {
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}

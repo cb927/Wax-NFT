@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:v="https://vecta.io/nano" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="45" stroke="#067fcb" stroke-width="2.1" stroke-linecap="round">
+    <rect x="15" y="10" rx="1" ry="1" width="34" height="28" fill="none" />
+    <path d="m15 38l11 -15s1 -1 2 0l4 6s1 1 2 0l4 -4s1 -1 2 0l9 13" fill="#067fcb" stroke-width="0" />
+    <circle cx="40" cy="18" r="2" fill="#067fcb" />
+</svg>

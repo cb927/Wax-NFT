@@ -1,0 +1,10 @@
+#main {
+    height: calc(100vh - 68px);
+    overflow: auto;
+}
+
+@media only screen and (max-width: 400px) {
+    #main {
+        height: calc(100vh - 80px);
+    }
+}

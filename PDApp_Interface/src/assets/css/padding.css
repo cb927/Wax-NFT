@@ -1,0 +1,79 @@
+.pdapp_pa {
+    padding: auto;
+}
+
+.pdapp_pta {
+    padding-top: auto;
+}
+
+.pdapp_pla {
+    padding-left: auto;
+}
+
+.pdapp_pba {
+    padding-bottom: auto;
+}
+
+.pdapp_pra {
+    padding-right: auto;
+}
+
+.pdapp_p5 {
+    padding: 5px;
+}
+
+.pdapp_pt5 {
+    padding-top: 5px;
+}
+
+.pdapp_pl5 {
+    padding-left: 5px;
+}
+
+.pdapp_pb5 {
+    padding-bottom: 5px;
+}
+
+.pdapp_pr5 {
+    padding-right: 5px;
+}
+
+.pdapp_p10 {
+    padding: 10px;
+}
+
+.pdapp_pt10 {
+    padding-top: 10px;
+}
+
+.pdapp_pl10 {
+    padding-left: 10px;
+}
+
+.pdapp_pb10 {
+    padding-bottom: 10px;
+}
+
+.pdapp_pr10 {
+    padding-right: 10px;
+}
+
+.pdapp_p20 {
+    padding: 20px;
+}
+
+.pdapp_pt20 {
+    padding-top: 20px;
+}
+
+.pdapp_pl20 {
+    padding-left: 20px;
+}
+
+.pdapp_pb20 {
+    padding-bottom: 20px;
+}
+
+.pdapp_pr20 {
+    padding-right: 20px;
+}

@@ -1,0 +1,63 @@
+.CreateCollectionForm .CollectionPhoto {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 #00000033;
+    margin: 10px auto;
+    width: 170px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.CreateCollectionForm .CollectionPhoto .PhotoImg{
+    margin-top: 33px;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.CreateCollectionForm .CollectionInfo {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 #00000033;
+    margin: 10px 0;
+    padding: 3px 10px;
+}
+
+.CreateCollectionForm .CollectionInfo label {
+    color: #067fcb;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 15px;
+}
+
+.CreateCollectionForm .CollectionInfo input[type="text"], .CreateCollectionForm .CollectionInfo textarea {
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.CreateCollectionForm .CollectionInfo textarea {
+    height: 105px;
+    resize: none;
+    margin-bottom: 0;
+}
+
+.CreateCollectionForm .CollectionInfo .SubmitSection {
+    width: 100%;
+    text-align: right;
+}
+
+.CreateCollectionForm .CollectionInfo input[type="submit"] {
+    background-color: #067fcb;
+    color: #eeeeee;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin: 40px 0 10px 0;
+    padding: 5px 20px;
+}
+
+.CreateCollectionForm .CollectionInfo input[type="submit"]:hover {
+    background-color: #0a6299;
+}

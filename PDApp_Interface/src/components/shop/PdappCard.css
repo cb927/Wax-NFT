@@ -1,0 +1,61 @@
+.PdappCard {
+    display: block;
+    background: #eeedef;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #98939d;
+    border-top: 6px solid #d71921;
+    max-width: 600px;
+    margin: 20px 10px;
+}
+
+.PdappCard div.pdappcard_data {
+    font-size: 1.2rem;
+}
+
+.PdappCard div.pdappcard_row {
+    display: flex;
+    align-items: center;
+}
+
+.PdappCard div.pdappcard_row div.key {
+    font-weight: 700;
+    color: #202020;
+    font-size: 1.5rem;
+}
+
+.PdappCard div.pdappcard_row div.value {
+    margin-left: auto;
+    order: 2;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.PdappCard div.pdappcard_desc {
+    margin-top: 10px;
+}
+
+.PdappCard div.pdappcard_desc div.desc_row {
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.PdappCard button:disabled {
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 650px) {
+    .PdappCard div.pdappcard_row div.key {
+        font-size: 1.2rem;
+    }
+
+    .PdappCard div.pdappcard_row div.value {
+        font-size: 1rem;
+    }
+
+    .PdappCard div.pdappcard_desc div.desc_row {
+        font-size: .8rem;
+        font-weight: 500;
+    }
+}

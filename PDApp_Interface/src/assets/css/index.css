@@ -1,0 +1,145 @@
+body {
+    background: transparent;
+    min-height: 100vh;
+}
+
+* {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #333;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input, textarea, select {
+    outline: none;
+    border: none;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.pdapp_active_btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+.pdapp_btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+.pdapp_active_btn:active {
+    transform: translate(0, 2px);
+}
+
+.pdapp_hover_slide {
+    position: relative;
+}
+
+.pdapp_hover_slide::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0;
+    left: 0;
+    transition: height ease .3s;
+    opacity: .3;
+    background-color: #30cf78;
+    z-index: 1;
+}
+
+.pdapp_hover_slide:hover::before {
+    height: 100%;
+}
+
+.pdapp_part_width {
+    width: 750px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 800px) {
+    .pdapp_part_width {
+        width: 100%;
+        padding: 0 5px;
+    }
+}
+
+.pdapp_section {
+    border: 3px solid #067fcb;
+    padding: 10px 10px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    color: #067fcb;
+}
+
+.pdapp_waxaccount {
+    width: fit-content;
+    margin: 20px 20px 20px auto;
+    color: #000000;
+    font-weight: 700;
+    transition: color .2s;
+    cursor: pointer;
+}
+
+.pdapp_waxaccount:hover {
+    color: #e91924;
+}
+
+.pdapp_card {
+    border: none;
+    box-shadow: 0 4px 8px 0 #00000033;
+}
+
+.pdapp_underline_input {
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #067fcb;
+}
+
+.pdapp_underline_input:focus {
+    outline: none;
+    border-bottom: 2px solid #043f64;
+}
+
+.pdapp_full_width {
+    width: 100%;
+}
+
+.pdapp_fit_width {
+    width: fit-content;
+}
+
+.pdapp_text_left {
+    text-align: left;
+}
+
+.pdapp_text_center {
+    text-align: center;
+}
+
+.pdapp_text_rigth {
+    text-align: right;
+}
+
+.pdapp_block {
+    display: block;
+}

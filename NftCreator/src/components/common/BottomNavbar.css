@@ -1,0 +1,73 @@
+.BottomNavbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    padding: 0 5px;
+    width: 100%;
+    height: 68px;
+    background: var(--nav-background);
+    box-shadow: 0 -2px 25px rgba(0,0,0,.1);
+    overflow: auto;
+}
+
+.BottomNavbar div.items {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.BottomNavbar .BottomNavbarItem {
+    text-align: right;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    color: var(--nav-link-color);
+    font-weight: 700;
+    transition: color .2s,text-shadow .2s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .BottomNavbar img {
+        display: none;
+    }
+
+    .BottomNavbar div.items {
+        width: 100%;
+        margin: 0;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .BottomNavbar .BottomNavbarItem {
+        font-size: 1.2rem;
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .BottomNavbar .BottomNavbarItem {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .BottomNavbar {
+        height: 80px;
+    }
+    .BottomNavbar .BottomNavbarItem {
+        font-size: .8rem;
+        padding: 5px 10px;
+    }
+}
+
+.BottomNavbar .BottomNavbarItem:hover {
+    color: #e91924;
+}
+
+.BottomNavbar .BottomNavbarItem.active {
+    color: #e91924;
+}
+

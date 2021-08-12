@@ -1,0 +1,55 @@
+.CreateCollectionCard {
+    width: 200px;
+    height: 300px;
+    background-color: #ffffdd;
+    box-shadow: 0 4px 8px 0 #00000033;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    user-select: none;
+    margin: 10px;
+}
+
+.CreateCollectionCard .CardBody {
+    width: 100%;
+    text-align: center;
+}
+
+.CreateCollectionCard .CardBody .PlusSign {
+    border: 4px solid #067fcb;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+}
+
+.CreateCollectionCard .CardBody .PlusSign::before {
+    position: absolute;
+    content: "";
+    height: 70%;
+    width: 6px;
+    border-radius: 3px;
+    top: 15%;
+    left: calc(50% - 3px);
+    background-color: #067fcb;
+}
+
+.CreateCollectionCard .CardBody .PlusSign::after {
+    position: absolute;
+    content: "";
+    height: 6px;
+    width: 70%;
+    border-radius: 3px;
+    left: 15%;
+    bottom: calc(50% - 3px);
+    background-color: #067fcb;
+}
+
+.CreateCollectionCard .CardBody .Comment {
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #067fcb;
+}

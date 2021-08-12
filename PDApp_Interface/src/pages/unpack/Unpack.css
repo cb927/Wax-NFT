@@ -1,0 +1,17 @@
+.Unpack {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Unpack .unpack_body {
+    max-width: 600px;
+    text-align: center;
+}
+
+.Unpack .unpack_body p {
+    font-size: 2em;
+    font-weight: bold;
+}
